@@ -72,11 +72,11 @@ class _HomeState extends State<Home> {
               controller: weightController,
               keyboardType: TextInputType.number,
               textAlign: TextAlign.center,
-              style: TextStyle(
+              style: const TextStyle(
                 color: Colors.green,
                 fontSize: 25.0,
               ),
-              decoration: InputDecoration(
+              decoration: const InputDecoration(
                 labelText: 'Peso (Kg)',
                 labelStyle: TextStyle(
                   color: Colors.green,
@@ -87,11 +87,11 @@ class _HomeState extends State<Home> {
               controller: heightController,
               keyboardType: TextInputType.number,
               textAlign: TextAlign.center,
-              style: TextStyle(
+              style: const TextStyle(
                 color: Colors.green,
                 fontSize: 25.0,
               ),
-              decoration: InputDecoration(
+              decoration: const InputDecoration(
                 labelText: 'Altura (cm)',
                 labelStyle: TextStyle(
                   color: Colors.green,
@@ -118,7 +118,7 @@ class _HomeState extends State<Home> {
             Text(
               _infoText,
               textAlign: TextAlign.center,
-              style: TextStyle(
+              style: const TextStyle(
                 color: Colors.green,
                 fontSize: 25,
               ),
